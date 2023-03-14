@@ -14,4 +14,5 @@ There are currently two Python scripts, one that imports your purchases from Car
 Note: 
 * The converter from set name to set code is far from perfect, and I've added some code to change certain set names from Cardmarket to the set names used in Scryfall, but there are for sure many more set names that needs to be changed in the same manner.
 * Cards with 'token' in its name are removed from the csv.
+* If something, like a setcode, is not found, it will appear as 'MANUALINPUT' in the csv to be manually edited before import.
 * The (V.x) postfix from Cardmarket is removed
